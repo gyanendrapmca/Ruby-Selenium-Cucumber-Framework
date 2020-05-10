@@ -23,19 +23,21 @@ GEM
     diff-lcs (1.3)
     ffi (1.12.2-x64-mingw32)
     gherkin (5.1.0)
+    json (2.3.0)
     logger (1.4.2)
     multi_json (1.14.1)
     multi_test (0.1.2)
     nokogiri (1.11.0.rc2-x64-mingw32)
+    power_assert (1.2.0)
     rake (13.0.1)
-    regexp_parser (1.7.0)
+    report_builder (1.8)
+      json (>= 1.8.1)
     rubyzip (2.3.0)
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
-    watir (6.16.5)
-      regexp_parser (~> 1.2)
-      selenium-webdriver (~> 3.6)
+    test-unit (3.3.5)
+      power_assert
     webdrivers (4.3.0)
       nokogiri (~> 1.6)
       rubyzip (>= 1.3.0)
@@ -54,8 +56,9 @@ DEPENDENCIES
   logger
   nokogiri (~> 1.11.0.rc1)
   rake
+  report_builder
   selenium-webdriver
-  watir
+  test-unit
   webdrivers (~> 4.0)
 
 BUNDLED WITH
