@@ -1,41 +1,40 @@
-#BDD Framework
+# BDD Framework #
 
-Language Supported- Ruby
+## Language Supported- Ruby ##
+## Selenium+Cucumber ##
 
-Selenium+Cucumber
+## INSTALLATIONS ##
 
-INSTALLATIONS
+## To Get Started ##
 
-To Get Started
+## Pre-requisites ##
 
-Pre-requisites
+* Install Ruby language (2.7)
 
--> Install Ruby language (2.7)
+* Install Rubymine ide
 
--> Install Rubymine ide
+## Setup projects ##
 
-Setup projects
+* Clone the projects & open it in Rubymine ide
 
--> Clone the projects & open it in Rubymine ide
+* If the compiler warning is displaying then-
 
--> If the compiler warning is displaying then-
-
-  => Click on File Menu -> Settings -> Languages & Frameworks (Left panel) -> Ruby SDK and Gems
+  * Click on File Menu -> Settings -> Languages & Frameworks (Left panel) -> Ruby SDK and Gems
   
-  => Add ruby and check the radiobutton, click on 'Apply' button -> OK.
+  * Add ruby and check the radiobutton, click on 'Apply' button -> OK.
   
--> To install all required all required gems in project
+* To install all required all required gems in project
 
-  => Click on Tools Menu -> Bundler -> Install
+  * Click on Tools Menu -> Bundler -> Install
   
-  => Click on Rub button in 'Bundle Install' popup
+  * Click on Rub button in 'Bundle Install' popup
   
         or,
         
-  => In Rubymine terminal type- 'Bundle' command
+  * In Rubymine terminal type- 'Bundle' command
   
   
-Run Suite
+## Run Suite ##
 
--> In terminal- 'rake' command
+* In terminal- 'rake' command
   
