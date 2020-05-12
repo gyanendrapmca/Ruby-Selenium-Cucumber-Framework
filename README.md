@@ -1,13 +1,13 @@
 # BDD Framework #
 
-## Language Supported- Ruby ##
-## Selenium+Cucumber ##
+### Language Supported- Ruby ###
+### Selenium+Cucumber ###
 
 ## INSTALLATIONS ##
 
-## To Get Started ##
+### To Get Started ###
 
-## Pre-requisites ##
+### Pre-requisites ###
 
 * Install Ruby language (2.7)
 
