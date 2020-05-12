@@ -23,11 +23,11 @@
   
   * Add ruby and check the radiobutton, click on 'Apply' button -> OK.
   
-* To install all required all required gems in project
+* To install all required gems in project
 
   * Click on Tools Menu -> Bundler -> Install
   
-  * Click on Rub button in 'Bundle Install' popup
+  * Click on Run button in 'Bundle Install' popup
   
         or,
         
