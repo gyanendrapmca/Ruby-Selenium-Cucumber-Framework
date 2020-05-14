@@ -11,9 +11,10 @@ Feature: Launch Opencart website
     And Left portion of navigation bar is displaying Currency dropdown
     And Right portion of navigation bar should display- Phone Number With "123456789"
     And "My Account" link is displaying with submenu item- "Register" and "Login"
-    And "Wish List" link is displaying
-    And "Shopping Cart" link is displaying
-    And "Checkout" link is displaying
+    And Link is displaying
+      | Wish List (0) |
+      | Shopping Cart |
+      | Checkout      |
 
     Scenario: Verify header section of homecart page
       Given I am on Opencart home page
