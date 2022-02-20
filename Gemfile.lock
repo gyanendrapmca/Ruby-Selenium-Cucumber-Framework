@@ -21,14 +21,19 @@ GEM
     cucumber-tag_expressions (1.1.1)
     cucumber-wire (0.0.1)
     diff-lcs (1.3)
+    ffi (1.12.2)
     ffi (1.12.2-x64-mingw32)
     gherkin (5.1.0)
     json (2.3.0)
     logger (1.4.2)
     multi_json (1.14.1)
     multi_test (0.1.2)
-    nokogiri (1.11.0.rc2-x64-mingw32)
+    nokogiri (1.12.5-x64-mingw32)
+      racc (~> 1.4)
+    nokogiri (1.12.5-x86_64-linux)
+      racc (~> 1.4)
     power_assert (1.2.0)
+    racc (1.5.2)
     rake (13.0.1)
     report_builder (1.8)
       json (>= 1.8.1)
@@ -45,6 +50,7 @@ GEM
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   bundler
@@ -54,7 +60,7 @@ DEPENDENCIES
   cucumber-wire
   ffi
   logger
-  nokogiri (~> 1.11.0.rc1)
+  nokogiri (~> 1.12.5)
   rake
   report_builder
   selenium-webdriver
